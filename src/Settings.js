@@ -7,7 +7,7 @@ module.exports = {
 	PG: {
 		host: "localhost",
 		user: "postgres",
-		password: "math",
+		password: "log4565",
 		database: "d35",
 		port: 5432,
 	},

@@ -22,7 +22,7 @@ const MANY = `
 `
 
 const CREATE = `
-	
+
 	INSERT INTO users (
 
 		user_username,
@@ -35,9 +35,6 @@ const CREATE = `
 	) RETURNING *
 `
 
-// 1 0
-// 2 3
-// 3 6
 
 const many = async ({ page, limit }) => await fetch(MANY, (page - 1) * limit, limit)
 
